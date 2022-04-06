@@ -1,0 +1,180 @@
+.flex-container {
+    /*display: flex;*/
+    /*flex-wrap: nowrap;*/
+    /*flex-direction: row;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+body {
+
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.columnh {
+    /*float: left;
+    width: 33.33%;*/
+    padding: 10px 0;
+    height: 10vh;
+    text-align: center;
+    /*flex-grow: 0;*/
+    /*flex-shrink: 1;*/
+    /*flex-basis: auto;*/
+
+}
+
+@media screen and (max-width: 600px) {
+    #top-red h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-height: 690px) {
+    #top-red h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #top-blue h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-height: 690px) {
+    #top-blue h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #top-green h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-height: 690px) {
+    #top-green h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 832px) {
+    #modal h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 832px) {
+    #imageP {
+        left: 20vw;
+    }
+}
+
+.headerE {
+    padding: 10px;
+    height: 10vh;
+    text-align: center;
+}
+
+.bColour {
+    height: 90vh;
+
+}
+
+
+
+.column {
+    /*float: left;
+    width: 33.33%;*/
+    padding: 10px;
+    height: 90vh;
+    /*flex-grow: 1;*/
+
+}
+
+#top-green {
+    background-color:#93c47d;
+}
+
+#top-red {
+    background-color:#e06666;
+}
+
+#top-blue{
+    background-color:#6d9eeb
+}
+
+#green {
+    background-color:#b6d7a8
+}
+
+#red {
+    background-color:#f4cccc
+}
+
+#blue {
+    background-color:#a4c2f4
+}
+
+#backgroundG{
+    background-image:url(../img/backgroundG.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#backgroundR{
+    background-image:url(../img/backgroundR.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+#backgroundB{
+    background-image:url(../img/backgroundB.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imageP {
+    z-index: 2;
+    position: absolute;
+    top: 30vh;
+    left: 20vw;
+}
+
+.imageP2 {
+    z-index: 2;
+    position: absolute;
+    top: 60vh;
+    left: 20vw;
+}
+
+
+
+
+.modal {
+    position: fixed;
+    width: 100vw;
+    height: 90vh;
+    font-size: 40px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
