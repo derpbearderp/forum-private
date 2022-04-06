@@ -1,7 +1,5 @@
 .flex-container {
-    /*display: flex;*/
-    /*flex-wrap: nowrap;*/
-    /*flex-direction: row;*/
+  
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -16,14 +14,11 @@ body {
 }
 
 .columnh {
-    /*float: left;
-    width: 33.33%;*/
+ 
     padding: 10px 0;
     height: 10vh;
     text-align: center;
-    /*flex-grow: 0;*/
-    /*flex-shrink: 1;*/
-    /*flex-basis: auto;*/
+
 
 }
 
@@ -89,11 +84,9 @@ body {
 
 
 .column {
-    /*float: left;
-    width: 33.33%;*/
     padding: 10px;
     height: 90vh;
-    /*flex-grow: 1;*/
+
 
 }
 
