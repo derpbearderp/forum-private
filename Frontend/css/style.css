@@ -1,5 +1,4 @@
 .flex-container {
-  
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -14,7 +13,6 @@ body {
 }
 
 .columnh {
- 
     padding: 10px 0;
     height: 10vh;
     text-align: center;
